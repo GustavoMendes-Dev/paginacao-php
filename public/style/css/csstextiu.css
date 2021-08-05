@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 4rem;
+}
+
+nav {
+    float: right;
+    line-height: 4.7rem;
+}
+
+.bg-primary {
+    background-color: #111111;
+    color: #ffffff;
+}
+.bg-secondary {
+    background-color: #ff385c;
+    color: #ffffff;
+}
+
+.bg {
+    background-color: #ffffff;;
+}
+
+.is-secondary {
+    color: #ff385c;
+}
+
+.columns {
+    width: 100%;
+    columns: 1;
+    float: left;
+    margin: 0 auto;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-3 {
+    width: 33.3%;
+}
+
+.column-4 {
+    width: 25%;
+}
+
+
+.is-right {
+    float: right;
+    position: relative;
+}
+
+header{
+    position: relative;
+    z-index: 999999;
+    height: 5.5rem;
+    width: 100%;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.float{
+    background-color: #ffffff;
+    box-shadow: 0px -5px 8px -1px;
+    height: 5rem;
+    position: fixed;
+    color: #111111;
+    transition: all 0.5s;
+}
+
+.float-nav {
+    line-height: 3rem;
+}
+
+.float-nav ul li a {
+    color: #111111;
+    font-weight: 500;
+}
+
+.brand-tex.brand-float {
+    line-height: 2rem;
+}
+
+.brand-float img {
+    padding-top: 25px !important;
+}
+
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#b-home{
+    height: 80vh;
+    min-height: 600px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#b-home .container {
+    padding-top: 8rem !important;
+}
+
+#home-secondary {
+    height: 90vh;
+}
+
+.title.is-8 {
+    width: 80%;
+    margin: 0 auto;
+    letter-spacing: -2.0px;
+    font-weight: 500;
+    line-height: 85px;
+    margin-bottom: 50px;
+}
+
+.is-4 {
+    font-size: 40px;
+}
+
+.is-8 {
+    font-size: 80px;
+}
+
+.button{
+    border-radius: 10px;
+    position: relative;
+    padding: 18px 48px;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.brand-tex {
+    position: relative;
+    float: left;
+    line-height: 6rem;
+    left: 0;
+    max-width: 9rem;
+    transition: all 1s;
+}
+
+.brand-tex img {
+    padding-top: 40px;
+}
+
+
